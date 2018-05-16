@@ -21,7 +21,7 @@ public class FirstActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String data="我信息";
+                String data="我tr息.";
                 Intent intent=new Intent(FirstActivity.this,SecondActivity.class);
                 intent.putExtra("d1027",data);
                 startActivityForResult(intent,1);
